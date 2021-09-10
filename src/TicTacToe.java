@@ -206,11 +206,10 @@ public class TicTacToe extends JFrame implements ActionListener {
         if (e.getSource() == bt7 && choice2 == 2) {
             if (choice % 2 == 0) {
                 bt7.setText("X");
-                setter(choice + 1);
             } else {
                 bt7.setText("O");
-                setter(choice + 1);
             }
+            setter(choice + 1);
         }
         if (e.getSource() == bt8 && choice2 == 2) {
             if (choice % 2 == 0) {
