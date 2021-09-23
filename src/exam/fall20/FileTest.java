@@ -9,7 +9,7 @@ import java.util.Comparator;
 public class FileTest {
     public static void main(String[] args) throws IOException {
 
-        FileReader file = new FileReader("src/exam/fall20/file.txt");
+        FileReader file = new FileReader("src/exam/fall20/file1.txt");
         FileWriter file1 = new FileWriter("src/exam/fall20/file1.txt");
         FileWriter file2 = new FileWriter("src/exam/fall20/file2.txt");
         BufferedReader reader = new BufferedReader(file);

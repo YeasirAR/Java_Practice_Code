@@ -1,0 +1,16 @@
+Suppose you are given the name, id and cgpa of 10+ students in a file. The first few lines of the file looks like this:
+
+input.txt
+Raihan 223 3.57
+Hasan 431 3.39
+Rakib 255 3.87
+....
+
+Write a java code to create another file, where the lines are in reversed order compared to the input.txt file and the id values are omitted.
+For the given input.txt example file, the last 3 lines of the output.txt file looks like this:
+
+output.txt
+...
+Rakib 3.87
+Hasan 3.39
+Raihan 3.57
