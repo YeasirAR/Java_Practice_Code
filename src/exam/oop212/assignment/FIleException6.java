@@ -21,9 +21,9 @@ public class FIleException6 {
                         bw.write(s+" ");     // writing to file
                     }
                 }
-                bw.write("\n");  // writing to file
+                bw.write("\n");    // writing to file
             }
-            bw.close();  // close file / flash the content to file
+            bw.close();  // close file / flush the content to file
             br.close();  // close reader
         } catch (FileNotFoundException e) {  // Catch exceptions
             System.out.println(e.getMessage());
