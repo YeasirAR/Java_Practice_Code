@@ -1,5 +1,0 @@
-Here goes the first line.
-First line was of 5 words and the first word of the first line
-was here. Second line was in past tense
-unlike the first line. This is the first document in the
-directory
