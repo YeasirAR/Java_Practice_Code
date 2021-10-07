@@ -1,4 +1,3 @@
-package exam.oop212;
 
 abstract class Employee {
     public String name;

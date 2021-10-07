@@ -1,7 +1,5 @@
 package AOOP.Lab7;
 
-import AOOP.Lab7.Client;
-
 import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;

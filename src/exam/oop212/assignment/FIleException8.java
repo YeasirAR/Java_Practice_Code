@@ -34,8 +34,10 @@ public class FIleException8 {
             }
             bw.close();         // closing file // flush the written content to file
             br.close();         // closing reader
-        } catch (IOException e){  // Catch exceptions
+        } catch (FileNotFoundException e) {   // Catch exceptions
             System.out.println(e.getMessage());
+            e.printStackTrace();
+        } catch (IOException e){
             e.printStackTrace();
         }
     }
