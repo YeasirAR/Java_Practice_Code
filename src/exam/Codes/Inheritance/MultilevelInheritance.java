@@ -1,5 +1,3 @@
-package lecture4;
-
 class X {
     int a;
     X() {
